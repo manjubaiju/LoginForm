@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+body{
+  background-color: white;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  }
+
+.Container{
+  border :1px solid black;
+  width :600px;
+  height :350px;
+  margin-left: 280px;
+  margin-top: 150px;
+  background-color:antiquewhite;
 }
 
-.App-link {
-  color: #61dafb;
+.Header{
+    width:600px;
+    height:30px;
+    background-color:#637a91;
+    color: white;
+    font-size :20px;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.passwordLabel{
+  padding-left: 90px;
+}
+
+.labelCss{
+  padding-left:120px;
+}
+
+.rowSpace{
+  margin-top:10px;
+}
+
+.buttonCss{
+  margin-left:150px;
+  height:30px;
+  width:300px;
+  background-color:#5fcf80;
+}
+
+.firstColerrorMsg{
+  padding-left: 120px;
+  color:red;
+}
+.secondColerrorMsg{
+ margin-right: 28%;
+  float: right;   
+  color:red;
+}
+
+.linkText{
+  margin-left:150px;
 }
